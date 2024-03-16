@@ -1,5 +1,7 @@
 import React from 'react'
 import ecommerce from '../components/assets/images/ecommerce.jpg'
+import { ReactTyped } from "react-typed";
+
 
 export default function Banner() {
   return (
@@ -11,6 +13,13 @@ export default function Banner() {
             <h2 className='text-white text-4xl md:text-[80px] md:p-[24px] '>Grow With us</h2>
             <div className='text-[20px] md:text-[50px] md:p-[24px] text-white  '>
                 Learn 
+                <ReactTyped className='pl-5'
+    strings={["Web Development","Ethical Hacking","Digital Marketing"
+    ]}
+    typeSpeed={100}
+    loop={true}
+    backSpeed={100}
+  />
              
 
             </div>
